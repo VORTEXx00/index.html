@@ -59,9 +59,15 @@ header h1 {
 </header>
 
 <div class="card">
-  <h2>Produto Digital</h2>
-  <p>Descrição do produto aqui.</p>
-  <div class="price">R$ 49,90</div>
+  <h2>SENSI FF</h2>
+  <p>
+> 🔹 Sensibilidades testadas e aprovadas em mais de 20 modelos de celulares, incluindo: Samsung, LG, Xiaomi, Motorola e Asus!
+> 🔹 100% atualizada para garantir movimentação rápida e precisão máxima!
+> 🔹 Igual a regedit VIP, trazendo a experiência de sensi de emulador no mobile!
+> 🔹 Perfeito para dispositivos de médio e alto desempenho!
+> ⚡ Melhore seu desempenho e aumente seu K/D agora! ⚡
+ .</p>
+  <div class="price">R$ 3,49</div>
   <a class="buy" href="#">Comprar</a>
 </div>
 
