@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Minha Loja</title>
+<title>VORTEX STORE</title>
 
 <style>
 body {
@@ -12,32 +12,42 @@ body {
   color: #fff;
   font-family: Arial, sans-serif;
 }
+
 header {
   background: #000;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
 }
+
 header h1 {
-  color: #e50914;
+  color: red;
 }
+
 .card {
   background: #161616;
-  border-radius: 15px;
   margin: 20px;
-  padding: 15px;
+  padding: 20px;
+  border-radius: 12px;
 }
-.card img {
-  width: 100%;
-  border-radius: 10px;
+
+.card h2 {
+  margin-top: 0;
 }
-button {
-  width: 100%;
-  background: #e50914;
-  border: none;
+
+.price {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.buy {
+  display: block;
+  text-align: center;
+  background: red;
+  color: #fff;
   padding: 15px;
   border-radius: 30px;
-  color: #fff;
-  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
 }
 </style>
 </head>
@@ -45,15 +55,14 @@ button {
 <body>
 
 <header>
-  <h1>MINHA STORE</h1>
+  <h1>VORTEX STORE</h1>
 </header>
 
 <div class="card">
-  <img src="https://via.placeholder.com/300">
   <h2>Produto Digital</h2>
   <p>Descrição do produto aqui.</p>
-  <strong>R$ 49,90</strong>
-  <button>Comprar</button>
+  <div class="price">R$ 49,90</div>
+  <a class="buy" href="#">Comprar</a>
 </div>
 
 </body>
